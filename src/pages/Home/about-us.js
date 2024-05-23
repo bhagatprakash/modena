@@ -1,0 +1,33 @@
+import React from "react";
+import About from "../../assect/Images/about-us.jpg";
+import Aboutwo from "../../assect/Images/about-us two.jpg";
+
+function AboutUs() {
+  return (
+    <div>
+      <div className="max-w-[1320px] md:py-[80] gap-10 p-10 flex  mx-auto md:flex-row flex-col">
+        <div className="basis-[49%] px-3 my-5">
+          <p className="text-xl  text-left font-semibold">ABOUT US</p>
+          <h1 className="text-3xl my-3 text-left ">
+            We are a team of Real Estate agents with more than 60 years in
+            combined experienced, based on the city of San Francisco.
+          </h1>
+          <hr className="h-px my-8 bg-green-400 border-0 w-[280px] dark:bg-green-600" />
+          <p className="text-lg my-9">
+            <img src={Aboutwo} alt="about image" className="w-full" />
+          </p>
+        </div>
+        <div className="basis-[49%] relative">
+          <img src={About} alt="about image" className="w-full " />
+          <p className=" relative top-[-70px]  max-[600px]:top-0 mx-2 text-gray-500 bg-white h-[50px] w-[300px] flex items-center justify-center">
+            <i className="fa-solid fa-school "></i>
+            ...Exclusive and luxury properties
+          </p>
+        </div>
+      </div>
+      <hr className="h-px  bg-gray-400 border-0" />
+    </div>
+  );
+}
+
+export default AboutUs;
