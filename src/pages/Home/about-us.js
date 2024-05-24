@@ -4,7 +4,7 @@ import Aboutwo from "../../assect/Images/about-us two.jpg";
 
 function AboutUs() {
   return (
-    <div>
+    <div className="">
       <div className="max-w-[1320px] md:py-[80] gap-10 p-10 flex  mx-auto md:flex-row flex-col">
         <div className="basis-[49%] px-3 my-5">
           <p className="text-xl  text-left font-semibold">ABOUT US</p>
@@ -25,7 +25,9 @@ function AboutUs() {
           </p>
         </div>
       </div>
-      <hr className="h-px  bg-gray-400 border-0" />
+      <div class="flex justify-center my-5">
+        <hr className="h-[1px] bg-gray-500 border-0 w-[1500px]" />
+      </div>
     </div>
   );
 }

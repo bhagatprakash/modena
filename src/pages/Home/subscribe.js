@@ -7,7 +7,6 @@ function Subscribe() {
     <div className="py-10">
       <div className="flex flex-col md:flex-row mx-auto">
         <div className="basis-full md:basis-1/2 bg-green-400 px-3 relative">
-          {/* <div className="flex flex-col items-center  justify-center min-h-[50px] mt-[120px]"> */}
           <div className="flex flex-col items-center justify-center min-h-[50px] mt-[120px] text-center md:text-left">
             <img src={BannerImage} alt="banner-image" className="h-[30px]" />
             <h1 className="text-3xl text-white py-5 font-semibold">

@@ -1,0 +1,62 @@
+import React from "react";
+
+import { properties } from "../../assect/Data/cardData";
+
+function PropertyDeals() {
+  return (
+    <>
+      <div className="my-10 ">
+        <h1 className="text-xl font-semibold">FEATURED</h1>
+        <h1 className="text-3xl font-semibold">Best Property Deals</h1>
+        <p className="my-2 text-lg text-gray-400">
+          Enjoy this amazing amenitie that has all you need to jump in
+        </p>
+      </div>
+      <div className="container mx-auto px-4">
+        <div className="bg-accent/20 py-10">
+          {/* <div className="max-w-[1320px] md:py-[80] gap-10 p-10 flex  mx-auto md:flex-row flex-col"> */}
+          <div className=" max-w-[1320px] grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2 ">
+            {properties.map((property) => (
+              <div
+                key={property.id}
+                className="max-w-sm w-full lg:max-w-[600px] lg:flex bg-white shadow-md rounded-lg overflow-hidden"
+              >
+                <img
+                  src={property.image}
+                  alt="Property"
+                  className="h-48 lg:h-auto lg:w-48 flex-none "
+                />
+                <div className="p-4 flex flex-col justify-between leading-normal">
+                  <div className="mb-8">
+                    <p className="text-[15px]  text-left font-bold">
+                      {property.type}
+                    </p>
+                    <div className="text-gray-900 text-left text-2xl mb-2">
+                      {property.price}
+                    </div>
+                    <p className="text-gray-700 text-left text-xl">
+                      {property.address}
+                    </p>
+                  </div>
+                  <div className="flex items-center">
+                    <p className="text-gray-500 text-[18px] leading-none mr-4">
+                      <i className="fa-solid fa-bed mx-2"></i>{" "}
+                      {property.bedrooms} Bedrooms
+                    </p>
+                    <p className="text-gray-500 text-[18px] leading-none">
+                      <i className="fa-solid fa-sink mx-2"></i>{" "}
+                      {property.bathrooms} Bathrooms
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <hr className="h-px my-10 bg-gray-400 border-0" />
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default PropertyDeals;

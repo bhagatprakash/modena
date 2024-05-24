@@ -34,7 +34,9 @@ function Properties() {
             </p>
           </div>
         </div>
-        <hr className="h-px  bg-gray-400 border-0" />
+        <div class="flex justify-center my-5">
+          <hr className="h-[1px] bg-gray-500 border-0 w-[1500px]" />
+        </div>
       </div>
     </div>
   );
