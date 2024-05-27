@@ -14,24 +14,24 @@ function PropertyDeals() {
       </div>
       <div className="container mx-auto px-4">
         <div className="bg-accent/20 py-10">
-          {/* <div className="max-w-[1320px] md:py-[80] gap-10 p-10 flex  mx-auto md:flex-row flex-col"> */}
-          <div className=" max-w-[1320px] grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2 ">
+          
+          <div className=" max-w-[1320px] mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2 ">
             {properties.map((property) => (
               <div
                 key={property.id}
-                className="max-w-sm w-full lg:max-w-[600px] lg:flex bg-white shadow-md rounded-lg overflow-hidden"
+                className=" w-full lg:max-w-[600px]    border border-gray-300 lg:flex bg-white shadow-md rounded-lg overflow-hidden"
               >
                 <img
                   src={property.image}
                   alt="Property"
-                  className="h-48 lg:h-auto lg:w-48 flex-none "
+                  className="h-48 lg:h-auto w-full lg:w-48 flex-none relative "
                 />
                 <div className="p-4 flex flex-col justify-between leading-normal">
                   <div className="mb-8">
-                    <p className="text-[15px]  text-left font-bold">
+                    <p className="text-[15px] mb-3 text-left font-bold">
                       {property.type}
                     </p>
-                    <div className="text-gray-900 text-left text-2xl mb-2">
+                    <div className="text-gray-900 text-left text-2xl mb-3">
                       {property.price}
                     </div>
                     <p className="text-gray-700 text-left text-xl">
@@ -39,12 +39,12 @@ function PropertyDeals() {
                     </p>
                   </div>
                   <div className="flex items-center">
-                    <p className="text-gray-500 text-[18px] leading-none mr-4">
-                      <i className="fa-solid fa-bed mx-2"></i>{" "}
+                    <p className="text-gray-500 text-[18px] leading-none mr-4  border border-gray-300 p-5">
+                      <i className="fa-solid fa-bed mx-2"></i>
                       {property.bedrooms} Bedrooms
                     </p>
-                    <p className="text-gray-500 text-[18px] leading-none">
-                      <i className="fa-solid fa-sink mx-2"></i>{" "}
+                    <p className="text-gray-500 text-[18px] leading-none  border border-gray-300 p-5">
+                      <i className="fa-solid fa-sink mx-2"></i>
                       {property.bathrooms} Bathrooms
                     </p>
                   </div>

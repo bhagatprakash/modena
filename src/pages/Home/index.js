@@ -12,6 +12,7 @@ import Testimonials from "./testimonials";
 import Images from "../../assect/Images/images.jpg";
 import Blog from "./blog";
 import Carousal from "./carousal";
+import Footer from "../../components/footer";
 
 function index() {
   return (
@@ -49,6 +50,9 @@ function index() {
 
       {/* bolg section  */}
       <Blog />
+
+      {/* footer  */}
+      <Footer />
     </div>
   );
 }

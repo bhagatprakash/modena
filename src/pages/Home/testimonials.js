@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { cardData } from "../../assect/Data/crosealData";
+import test from "../../assect/Images/test-1.jpg";
+import test1 from "../../assect/Images/test-2.jpg";
+import test2 from "../../assect/Images/test-3.jpg";
+import test3 from "../../assect/Images/test-4.jpg";
 
 function Testimonials() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -18,7 +22,7 @@ function Testimonials() {
     <>
       <div
         id="controls-carousel"
-        className="relative w-full bg-carosalImage  bg-green-400 h-[420px]  rounded-lg "
+        className="relative w-full bg-carosalImage   h-[420px]  rounded-lg "
       >
         {/* Carousel wrapper */}
         <div className="">
@@ -33,7 +37,7 @@ function Testimonials() {
               <div className="item  text-center mx-auto py-10 w-full max-w-[44rem] px-4 sm:px-6 lg:px-8">
                 <h2 className="text-xl font-bold">Testimonials</h2>
 
-                <h1 className="text-3xl my-5 leading-normal mx-auto font-semibold">
+                <h1 className="text-3xl my-5 leading-normal mx-auto ">
                   {item.content}
                 </h1>
                 <div class="flex justify-center">
@@ -43,6 +47,29 @@ function Testimonials() {
                 <div className="mx-auto text-center my-5">
                   <h1 className="text-xl  font-semibold">{item.job}</h1>
                 </div>
+              </div>
+
+              <div className="z-10">
+                <img
+                  src={test}
+                  alt="test img"
+                  className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative lg::top-[-330px] lg:right-[-120px] md:top-[-350px] md:right-[-100px] sm:right-[-30px] top-[-450px]"
+                />
+                <img
+                  src={test1}
+                  alt="test img"
+                  className="rounded-full lg:h-[120px] h-[80px] border float-start  border-green-400 relative lg:top-[-100px] lg:right-[-250px] top-[-180px] right-[70px]  md:right-[-100px] "
+                />
+                <img
+                  src={test2}
+                  alt="test img"
+                  className="rounded-full lg:h-[120px] h-[80px] border  float-end border-green-400 relative lg:top-[-330px] top-[-450px] md:top-[-350px]"
+                />
+                <img
+                  src={test3}
+                  alt="test img"
+                  className="rounded-full lg:h-[120px] h-[80px] border float-end border-green-400 relative lg:top-[-100px] lg:right-[50px] md:top-[-70px] md:right-[100px] top-[-150px] right-[-100px]"
+                />
               </div>
             </div>
           ))}
