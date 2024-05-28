@@ -11,14 +11,14 @@ function Blog() {
           Stay Updated
         </h1>
         <div className="bg-accent/20">
-          <div className="grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-3 px-12">
+          <div className="grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-3 px-12  animate__animated animate__backInUp">
             {BlogData.map((blog) => (
-              <div key={blog.id} className="max-w-sm my-6 bg-white">
+              <div key={blog.id} className=" my-6 bg-white">
                 <div className="h-[225px] overflow-hidden">
                   <img
                     src={blog.image}
                     alt="card"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover  hover:scale-125 duration-1000"
                   />
                 </div>
                 <a href="#">

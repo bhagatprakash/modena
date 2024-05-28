@@ -19,14 +19,14 @@ function Team() {
         <div className="bg-accent/20">
           <div className="max-w-[1320px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* card-1  */}
-            <div className="max-w-sm mx-auto my-6 bg-white rounded-lg shadow-xl border border-gray-300 dark:border-gray-700">
+            <div className="max-w-sm mx-auto my-6 bg-white rounded-lg shadow-xl border border-gray-300 dark:border-gray-700 ">
               <div className="relative overflow-hidden rounded-t-lg">
                 <img
                   src={profile}
                   alt="Thomas Miller"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute bottom-0  my-10 mx-12 left-0 w-[300px]  bg-white bg-opacity-75 p-4 flex flex-col justify-center items-center">
+                <div className="absolute bottom-0  my-10 mx-12 left-0 w-[300px]  bg-white bg-opacity-75 p-4 flex flex-col justify-center items-center  animate__animated animate__backInUp">
                   <h1 className="text-2xl my-2 ">Thomas Miller</h1>
                   <div class="flex justify-center">
                     <hr className="h-[3px] bg-green-500 border-0 w-[100px]" />
@@ -44,7 +44,7 @@ function Team() {
                   alt="Jennifer Meyer"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute bottom-0 left-0  w-[300px]  my-10 mx-12 bg-white bg-opacity-75 p-4 flex flex-col justify-center items-center">
+                <div className="absolute bottom-0 left-0  w-[300px]  my-10 mx-12 bg-white bg-opacity-75 p-4 flex flex-col justify-center items-center  animate__animated animate__backInUp">
                   <h1 className="text-2xl my-2 ">Jennifer Meyer</h1>
                   <div class="flex justify-center">
                     <hr className="h-[3px] bg-green-500 border-0 w-[100px]" />
@@ -62,7 +62,7 @@ function Team() {
                   alt="Peter Houston"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute bottom-0 left-0 w-[300px]  my-10 mx-12 bg-white bg-opacity-75 p-4 flex flex-col justify-center items-center">
+                <div className="absolute bottom-0 left-0 w-[300px]  my-10 mx-12 bg-white bg-opacity-75 p-4 flex flex-col justify-center items-center  animate__animated animate__backInUp">
                   <h1 className="text-2xl my-2 ">Peter Houston</h1>
                   <div class="flex justify-center">
                     <hr className="h-[3px] bg-green-500 border-0 w-[100px]" />

@@ -14,7 +14,12 @@ function AboutUs() {
           </h1>
           <hr className="h-px my-8 bg-green-400 border-0 w-[280px] dark:bg-green-600" />
           <p className="text-lg my-9">
-            <img src={Aboutwo} alt="about image" className="w-full" />
+            <img
+              src={Aboutwo}
+              alt="about image"
+              className="w-full "
+              data-aos="fade-up"
+            />
           </p>
         </div>
         <div className="basis-[49%] relative">

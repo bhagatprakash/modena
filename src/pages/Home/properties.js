@@ -9,7 +9,11 @@ function Properties() {
       <div>
         <div className="max-w-[1320px] md:py-[80]  p-10 flex  gap-10 mx-auto md:flex-row flex-col">
           <div className="basis-[49%] relative">
-            <img src={Properti} alt="about image" className="w-full " />
+            <img
+              src={Properti}
+              alt="about image"
+              className="w-full  animate__animated animate__backInLeft"
+            />
             <p className=" relative top-[-70px] max-[600px]:top-0 mx-2 text-gray-500 bg-white h-[50px] w-[300px] flex items-center justify-center">
               <i className="fa-regular fa-circle-check text-green-500  "></i>
               ...Exclusive and luxury properties
@@ -17,7 +21,11 @@ function Properties() {
           </div>
           <div className="basis-[49%] px-3 ">
             <p className="text-lg my-9">
-              <img src={PropertiTwo} alt="about image" className="w-full" />
+              <img
+                src={PropertiTwo}
+                alt="about image"
+                className="w-full  animate__animated animate__backInRight"
+              />
               <p className="text-xl  text-left my-5 font-semibold">
                 PROPERTIES
               </p>

@@ -13,7 +13,7 @@ function Pricing() {
           </p>
         </div>
         <div className="bg-accent/20 py-10">
-          <div className="max-w-7xl mx-auto grid gap-10 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+          <div className="max-w-7xl mx-auto grid gap-10 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  animate__animated animate__backInUp">
             {pricingData.map((plan, index) => (
               <div
                 key={index}

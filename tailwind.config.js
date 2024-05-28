@@ -6,6 +6,12 @@ module.exports = {
       backgroundImage: {
         banner: "url(./assect/Images/banner-baground-Image.jpg)",
       },
+      boxShadow: {
+        insetcustom: "inset 0 0 0 2000px rgba(0, 0,0, 0.56)",
+      },
+      screens: {
+        "1025-1165": { min: "1025px", max: "1165px" },
+      },
       colors: {
         primary: "#ee0181",
       },

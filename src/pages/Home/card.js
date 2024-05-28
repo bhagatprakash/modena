@@ -13,17 +13,17 @@ function Card() {
         </p>
       </div>
       <div className="bg-accent/20">
-        <div className="grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-4 px-12">
+        <div className="grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-3 px-12">
           {FetureData.map((card, index) => (
             <div
               key={index}
               className="max-w-sm my-6 bg-white rounded-lg shadow-xl border border-gray-300 dark:border-gray-700"
             >
-              <div className="h-[225px] overflow-hidden rounded-t-lg">
+              <div className="h-[225px] overflow-hidden rounded-t-lg ">
                 <img
                   src={card.image}
                   alt="card"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover hover:scale-125 duration-1000"
                 />
               </div>
               <a href="#">

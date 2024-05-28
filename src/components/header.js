@@ -36,51 +36,51 @@ function Header() {
           <div className="toggle hidden w-full md:w-auto md:flex  row-gap-25 text-bold mt-5 md:mt-0  md:border-none">
             <a
               href="#"
-              className="block md:inline-block  text-[18px] font-semibold px-3 py-3 "
+              className="block md:inline-block lg:text-[18px] md:text-[12px] font-semibold px-3 py-3 "
             >
               PROPERTIES<i className="fa-solid fa-angle-right mx-2"></i>
             </a>
             <a
               href="#"
-              className="block md:inline-block   text-[18px] font-semibold px-3 py-3 "
+              className="block md:inline-block   lg:text-[18px]  md:text-[12px] font-semibold px-3 py-3 "
             >
               ABOUT US
             </a>
             <a
               href="#"
-              className="block md:inline-block   px-3 py-3 text-[18px] font-semibold "
+              className="block md:inline-block   px-3 py-3 lg:text-[18px] md:text-[12px] font-semibold "
             >
               SERVICES
             </a>
             <a
               href="#"
-              className="block md:inline-block   px-3 py-3 text-[18px] font-semibold   "
+              className="block md:inline-block   px-3 py-3 lg:text-[18px] md:text-[12px] font-semibold   "
             >
               FAQ
             </a>
             <a
               href="#"
-              className="block md:inline-block   px-3 py-3 text-[18px] font-semibold  "
+              className="block md:inline-block   px-3 py-3 lg:text-[18px] md:text-[12px] font-semibold  "
             >
               BLOG
             </a>
             <a
               href="#"
-              className="block md:inline-block   px-3 py-3 text-[18px] font-semibold   "
+              className="block md:inline-block   px-3 py-3 lg:text-[18px] md:text-[12px] font-semibold   "
             >
               CONTACT US
             </a>
             <a
               href="#"
-              className="block md:inline-block   px-3 py-3 text-[18px] font-semibold   "
+              className="block md:inline-block   px-3 py-3 lg:text-[18px] md:text-[12px] font-semibold   "
             >
               PAGES<i className="fa-solid fa-angle-right mx-2"></i>
             </a>
             <a
               href="#"
-              className="block md:inline-block   px-3 py-3 text-[18px] font-semibold   "
+              className="block md:inline-block   px-3 py-3 lg:text-[18px] md:text-[12px] font-semibold   "
             >
-              <i className="fa-brands fa-whatsapp text-green-500 font-semibold text-[25px] "></i>{" "}
+              <i className="fa-brands fa-whatsapp text-green-500 font-semibold text-[25px] md:text-[18px] "></i>{" "}
               CALL US TODAY <span className="text-green-500">899-504-629</span>
             </a>
           </div>

@@ -14,18 +14,19 @@ function PropertyDeals() {
       </div>
       <div className="container mx-auto px-4">
         <div className="bg-accent/20 py-10">
-          
           <div className=" max-w-[1320px] mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2 ">
             {properties.map((property) => (
               <div
                 key={property.id}
                 className=" w-full lg:max-w-[600px]    border border-gray-300 lg:flex bg-white shadow-md rounded-lg overflow-hidden"
               >
-                <img
-                  src={property.image}
-                  alt="Property"
-                  className="h-48 lg:h-auto w-full lg:w-48 flex-none relative "
-                />
+                <div className="overflow-hidden">
+                  <img
+                    src={property.image}
+                    alt="Property"
+                    className="h-full  w-full lg:w-48 flex-none relative  hover:scale-125 duration-1000"
+                  />
+                </div>
                 <div className="p-4 flex flex-col justify-between leading-normal">
                   <div className="mb-8">
                     <p className="text-[15px] mb-3 text-left font-bold">

@@ -15,7 +15,7 @@ function Carousal() {
   };
   return (
     <div>
-      <div className="max-w-[1320px]  md:py-[80] gap-10 p-10 flex  mx-auto md:flex-row flex-col">
+      <div className="max-w-[1320px]  md:py-[80] gap-10 lg:p-10  flex  mx-auto md:flex-row flex-col">
         <div
           id="controls-carousel"
           className="relative w-full bg-carosalImage  bg-green-400 h-[420px]  rounded-lg "
@@ -34,7 +34,7 @@ function Carousal() {
                   src={item.carosalImage}
                   className="h-full w-full relative"
                 />
-                <div className=" md:w-[500px] sm:w-[300px] sm:p-5  max-auto bg-white border border-gray-500  relative p-10 top-[-350px]  lg:right-[-80px]">
+                <div className=" md:w-[500px] sm:w-[300px] sm:p-5 sm:ml-10  max-auto bg-white border border-gray-500  relative lg:p-10 top-[-350px]  lg:right-[-80px]  animate__animated animate__backInLeft">
                   <p className="text-[18px] sm:text-[16px] text-left font-bold py-2">
                     DESIGN
                   </p>
@@ -56,10 +56,10 @@ function Carousal() {
           {/* Slider controls */}
           <button
             type="button"
-            className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            className="absolute top-0 right-[14px] z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             onClick={handlePrev}
           >
-            <span className="inline-flex items-center justify-center w-10 relative right-[-1143px] bottom-[-190px] h-10  bg-green-500/80 group-hover:bg-white/50  ">
+            <span className="inline-flex items-center justify-center w-10 relative  right-[13px] bottom-[-190px] h-10  bg-green-500/80   ">
               <svg
                 className="w-4 h-4 text-white "
                 aria-hidden="true"
@@ -83,7 +83,7 @@ function Carousal() {
             className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             onClick={handleNext}
           >
-            <span className="inline-flex items-center justify-center w-10 h-10  relative bg-green-500/80 group-hover:bg-white/50 left-[15px] bottom-[-190px]">
+            <span className="inline-flex items-center justify-center w-10 h-10  relative bg-green-500/80  left-[15px] bottom-[-190px]">
               <svg
                 className="w-4 h-4 text-white"
                 aria-hidden="true"

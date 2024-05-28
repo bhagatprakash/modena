@@ -53,22 +53,22 @@ function Testimonials() {
                 <img
                   src={test}
                   alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative lg::top-[-330px] lg:right-[-120px] md:top-[-350px] md:right-[-100px] sm:right-[-30px] top-[-450px]"
+                  className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative lg::top-[-330px] lg:right-[-290px] md:top-[-350px] md:right-[-100px] sm:right-[-30px] top-[-450px]"
                 />
                 <img
                   src={test1}
                   alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border float-start  border-green-400 relative lg:top-[-100px] lg:right-[-250px] top-[-180px] right-[70px]  md:right-[-100px] "
+                  className="rounded-full lg:h-[120px] h-[80px] border float-start  border-green-400 relative lg:top-[-100px] lg:right-[-250px] top-[-200px] right-[70px]  md:right-[-100px] "
                 />
                 <img
                   src={test2}
                   alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border  float-end border-green-400 relative lg:top-[-330px] top-[-450px] md:top-[-350px]"
+                  className="rounded-full lg:h-[120px] h-[80px] border  float-end border-green-400 relative lg:top-[-330px]  lg:right-[400px] top-[-550px] md:top-[-350px]"
                 />
                 <img
                   src={test3}
                   alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border float-end border-green-400 relative lg:top-[-100px] lg:right-[50px] md:top-[-70px] md:right-[100px] top-[-150px] right-[-100px]"
+                  className="rounded-full lg:h-[120px] h-[80px] border float-end border-green-400 relative lg:top-[-150px] lg:right-[400px] md:top-[-70px] md:right-[100px] top-[-150px] right-[-100px]"
                 />
               </div>
             </div>
@@ -80,7 +80,7 @@ function Testimonials() {
           className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
           onClick={handlePrev}
         >
-          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/80 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-red">
+          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/80  group-focus:ring-4 group-focus:ring-red">
             <svg
               className="w-4 h-4 text-red-500"
               aria-hidden="true"
@@ -104,7 +104,7 @@ function Testimonials() {
           className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
           onClick={handleNext}
         >
-          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/80 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-red">
+          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/80  group-focus:ring-4 group-focus:ring-red">
             <svg
               className="w-4 h-4 text-red-500"
               aria-hidden="true"

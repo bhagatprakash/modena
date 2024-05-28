@@ -1,6 +1,7 @@
 import "./App.css";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import "animate.css";
 
 // react router
 import { createBrowserRouter, RouterProvider } from "react-router-dom";

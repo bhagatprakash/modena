@@ -7,7 +7,7 @@ function Subscribe() {
     <div className="py-10">
       <div className="flex flex-col md:flex-row mx-auto">
         <div className="basis-full md:basis-1/2 bg-green-400 px-3 relative">
-          <div className="flex flex-col items-center justify-center min-h-[50px] mt-[120px] text-center md:text-left">
+          <div className="flex flex-col items-center justify-center min-h-[50px] mt-[120px] text-center md:text-left  animate__animated animate__backInUp">
             <img src={BannerImage} alt="banner-image" className="h-[30px]" />
             <h1 className="text-3xl text-white py-5 font-semibold">
               FIND YOUR NEXT
@@ -43,7 +43,7 @@ function Subscribe() {
           </div>
         </div>
         <div className="basis-full md:basis-1/2">
-          <img src={Subsc} alt="about image" className="w-full" />
+          <img src={Subsc} alt="about image" className="w-full h-[100%]" />
         </div>
       </div>
     </div>
