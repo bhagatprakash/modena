@@ -12,9 +12,13 @@ function Properties() {
             <img
               src={Properti}
               alt="about image"
-              className="w-full  animate__animated animate__backInLeft"
+              className="w-full "
+              data-aos="fade-right"
             />
-            <p className=" relative top-[-70px] max-[600px]:top-0 mx-2 text-gray-500 bg-white h-[50px] w-[300px] flex items-center justify-center">
+            <p
+              className=" relative top-[-70px] max-[600px]:top-0 mx-2 text-gray-500 bg-white h-[50px] w-[300px] flex items-center justify-center"
+              data-aos="fade-up"
+            >
               <i className="fa-regular fa-circle-check text-green-500  "></i>
               ...Exclusive and luxury properties
             </p>
@@ -24,7 +28,8 @@ function Properties() {
               <img
                 src={PropertiTwo}
                 alt="about image"
-                className="w-full  animate__animated animate__backInRight"
+                className="w-full  "
+                data-aos="fade-left"
               />
               <p className="text-xl  text-left my-5 font-semibold">
                 PROPERTIES
@@ -33,7 +38,7 @@ function Properties() {
                 We have the property you are looking for, just let us know your
                 requirements.
               </h1>
-              <hr className="h-px my-8 bg-green-400 border-0 w-[280px] dark:bg-green-600" />
+              <hr className="h-[3px] my-8 bg-green-400 border-0 w-[280px] dark:bg-green-600" />
               <p className="text-gray-500 my-2 text-left">
                 Cras pulvinar ultricies vehicula cras et nulla id lorem
                 vulputate pulvinar eget non neque. Proin feugiat justo vitae

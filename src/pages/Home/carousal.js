@@ -34,7 +34,10 @@ function Carousal() {
                   src={item.carosalImage}
                   className="h-full w-full relative"
                 />
-                <div className=" md:w-[500px] sm:w-[300px] sm:p-5 sm:ml-10  max-auto bg-white border border-gray-500  relative lg:p-10 top-[-350px]  lg:right-[-80px]  animate__animated animate__backInLeft">
+                <div
+                  className=" md:w-[500px] sm:w-[300px] sm:p-5 sm:ml-10  max-auto bg-white border border-gray-500  relative lg:p-10 top-[-350px]  lg:right-[-80px] "
+                  data-aos="fade-right"
+                >
                   <p className="text-[18px] sm:text-[16px] text-left font-bold py-2">
                     DESIGN
                   </p>

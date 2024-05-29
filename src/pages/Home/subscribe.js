@@ -6,9 +6,16 @@ function Subscribe() {
   return (
     <div className="py-10">
       <div className="flex flex-col md:flex-row mx-auto">
-        <div className="basis-full md:basis-1/2 bg-green-400 px-3 relative">
-          <div className="flex flex-col items-center justify-center min-h-[50px] mt-[120px] text-center md:text-left  animate__animated animate__backInUp">
-            <img src={BannerImage} alt="banner-image" className="h-[30px]" />
+        <div className="basis-full md:basis-1/2 bg-green-600 px-3 relative">
+          <div
+            className="flex flex-col items-center justify-center min-h-[50px] mt-[120px] md:text-left "
+            data-aos="fade-right"
+          >
+            <img
+              src={BannerImage}
+              alt="banner-image"
+              className="h-[30px]  filter invert brightness-0"
+            />
             <h1 className="text-3xl text-white py-5 font-semibold">
               FIND YOUR NEXT
             </h1>
@@ -19,7 +26,7 @@ function Subscribe() {
               WE HAVE THE RIGHT PROPERTY FOR YOU
             </p>
 
-            <form action="#" className="mx-auto md:w-[80%] lg:w-[60%]">
+            <form action="#" className="mx-auto md:w-[80%] lg:w-[60%]  ">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-1 px-2 md:px-0">
                 <input
                   type="text"
@@ -34,7 +41,7 @@ function Subscribe() {
               </div>
 
               <div className="text-center my-1 md:text-left">
-                <button className="btn h-[45px] w-full  text-white font-semibold bg-green-500 mt-4 md:mt-0">
+                <button className="btn h-[45px] w-full  text-white font-semibold  border border-gray-500 bg-green-700 mt-4 md:mt-0 hover:bg-green-600 hover:text-white duration-1000">
                   Submit
                   <i className="fa-solid fa-arrow-down mx-3"></i>
                 </button>

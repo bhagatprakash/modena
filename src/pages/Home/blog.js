@@ -11,7 +11,10 @@ function Blog() {
           Stay Updated
         </h1>
         <div className="bg-accent/20">
-          <div className="grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-3 px-12  animate__animated animate__backInUp">
+          <div
+            className="grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-3 px-12 "
+            data-aos="fade-up"
+          >
             {BlogData.map((blog) => (
               <div key={blog.id} className=" my-6 bg-white">
                 <div className="h-[225px] overflow-hidden">

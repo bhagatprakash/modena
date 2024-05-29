@@ -7,14 +7,14 @@ import card3 from "../assect/Images/card-3.jpg";
 function Footer() {
   return (
     <>
-      <div className="bg-green-800">
+      <div className="bg-green-600">
         <div className="max-w-[1520px] flex flex-col mx-auto sm:flex-row">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 text-center md:text-left lg:grid-cols-5 my-10 px-5 gap-6">
             <div className="cursor-pointer text-white">
               <img
                 src={banner}
                 alt="blog img"
-                className="h-[30px] text-white my-6 mx-auto md:mx-0"
+                className="h-[30px]  my-6 mx-auto md:mx-0  filter invert brightness-0"
               />
               <h1 className="text-2xl font-semibold">MODENA</h1>
               <p className="text-[20px] my-3">
@@ -22,12 +22,12 @@ function Footer() {
                 easy to customize and easy to create your property listings.
               </p>
               <div className="space-x-3 text-center lg:text-left  py-3">
-                <i className="text-[16px] fa-brands fa-instagram "></i>
-                <i className="text-[16px] fa-brands fa-whatsapp"></i>
-                <i className="text-[16px] fa-brands fa-facebook"></i>
-                <i className="text-[16px] fa-brands fa-twitter"></i>
-                <i className="text-[16px] fa-brands fa-youtube"></i>
-                <i className="text-[16px] fa-brands fa-tiktok"></i>
+                <i className="text-[20px] fa-brands fa-instagram  hover:bg-white-500 hover:text-gray-300  "></i>
+                <i className="text-[20px] fa-brands fa-whatsapp hover:bg-white-500 hover:text-gray-300 "></i>
+                <i className="text-[20px] fa-brands fa-facebook hover:bg-white-500 hover:text-gray-300 "></i>
+                <i className="text-[20px] fa-brands fa-twitter hover:bg-white-500 hover:text-gray-300 "></i>
+                <i className="text-[20px] fa-brands fa-youtube hover:bg-white-500 hover:text-gray-300"></i>
+                <i className="text-[20px] fa-brands fa-tiktok hover:bg-white-500 hover:text-gray-300 "></i>
               </div>
             </div>
             <div className="cursor-pointer text-white">
@@ -63,11 +63,11 @@ function Footer() {
                   <img
                     src={card1}
                     alt="Property"
-                    className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover"
+                    className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover   hover:scale-125 duration-1000"
                   />
                   <div className="p-4 flex flex-col justify-between leading-normal">
                     <div>
-                      <p className="text-white font-bold">HOUSE</p>
+                      <p className="text-white font-bold text-left">HOUSE</p>
                       <div className="text-white text-left text-xl mb-2">
                         $290,000
                       </div>
@@ -81,11 +81,11 @@ function Footer() {
                   <img
                     src={card2}
                     alt="Property"
-                    className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover"
+                    className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover   hover:scale-125 duration-1000"
                   />
                   <div className="p-4 flex flex-col justify-between leading-normal">
                     <div>
-                      <p className="text-white font-bold">HOUSE</p>
+                      <p className="text-white font-bold text-left">OFFICE</p>
                       <div className="text-white text-left text-xl mb-2">
                         $500,000
                       </div>
@@ -99,11 +99,13 @@ function Footer() {
                   <img
                     src={card3}
                     alt="Property"
-                    className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover"
+                    className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover   hover:scale-125 duration-1000"
                   />
                   <div className="p-4 flex flex-col justify-between leading-normal">
                     <div>
-                      <p className="text-white font-bold">HOUSE</p>
+                      <p className="text-white font-bold text-left">
+                        APARTMENT
+                      </p>
                       <div className="text-white text-left text-xl mb-2">
                         $170,000
                       </div>
@@ -121,8 +123,8 @@ function Footer() {
           <hr className="h-[1px] bg-gray-500 border-0 w-[100%] max-w-[1500px]" />
         </div>
         <p className="text-[16px] p-5  md:mx-20 text-white underline">
-          Buy Template | Version 1.4 | Image Licensing | Made By Pablo Ramos |
-          Visit My Templates | Powered By Webflow
+          Buy Template | Image show | Made By Prakash pal | Visit My Templates |
+          Powered By Simbanic
         </p>
       </div>
     </>

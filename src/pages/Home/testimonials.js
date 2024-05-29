@@ -37,7 +37,7 @@ function Testimonials() {
               <div className="item  text-center mx-auto py-10 w-full max-w-[44rem] px-4 sm:px-6 lg:px-8">
                 <h2 className="text-xl font-bold">Testimonials</h2>
 
-                <h1 className="text-3xl my-5 leading-normal mx-auto ">
+                <h1 className=" lg:text-3xl text-xl my-5 lg:leading-normal mx-auto ">
                   {item.content}
                 </h1>
                 <div class="flex justify-center">
@@ -53,22 +53,22 @@ function Testimonials() {
                 <img
                   src={test}
                   alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative lg::top-[-330px] lg:right-[-290px] md:top-[-350px] md:right-[-100px] sm:right-[-30px] top-[-450px]"
+                  className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative lg:top-[-330px] lg:right-[-290px] md:top-[-350px] md:right-[-100px] sm:right-[-30px] top-[-450px]"
                 />
                 <img
                   src={test1}
                   alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border float-start  border-green-400 relative lg:top-[-100px] lg:right-[-250px] top-[-200px] right-[70px]  md:right-[-100px] "
+                  className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative lg:top-[-100px] lg:right-[-250px] top-[-200px] md:top-[-137px] md:right-[-200px] right-[70px]"
                 />
                 <img
                   src={test2}
                   alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border  float-end border-green-400 relative lg:top-[-330px]  lg:right-[400px] top-[-550px] md:top-[-350px]"
+                  className="rounded-full lg:h-[120px] h-[80px] border float-end border-green-400 relative lg:top-[-330px] md:right-[91px] lg:right-[400px] top-[-550px] sm:top-[-350px]"
                 />
                 <img
                   src={test3}
                   alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border float-end border-green-400 relative lg:top-[-150px] lg:right-[400px] md:top-[-70px] md:right-[100px] top-[-150px] right-[-100px]"
+                  className="rounded-full lg:h-[120px] h-[80px] border float-end border-green-400 relative lg:top-[-150px] lg:right-[400px] md:right-[114px] md:top-[-70px] top-[-150px] right-[-100px]"
                 />
               </div>
             </div>

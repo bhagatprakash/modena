@@ -13,7 +13,10 @@ function Pricing() {
           </p>
         </div>
         <div className="bg-accent/20 py-10">
-          <div className="max-w-7xl mx-auto grid gap-10 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  animate__animated animate__backInUp">
+          <div
+            className="max-w-7xl mx-auto grid gap-10 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  "
+            data-aos="fade-up"
+          >
             {pricingData.map((plan, index) => (
               <div
                 key={index}
@@ -48,7 +51,7 @@ function Pricing() {
                   </div>
                 ))}
                 <div className="px-3 pt-4 pb-2 border-t mx-auto border-gray-300">
-                  <button className="font-semibold text-green-500 h-12 w-full border border-green-500">
+                  <button className="font-semibold text-green-500 h-12 w-full border border-green-500 hover:bg-green-500 hover:text-white duration-1000">
                     Choose this Plan
                   </button>
                 </div>
