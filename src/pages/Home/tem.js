@@ -25,7 +25,7 @@ function Team() {
                   className="w-full h-full object-cover"
                 />
                 <div
-                  className="absolute bottom-0 left-0 w-[300px] my-10 mx-12 bg-white bg-opacity-75 p-4 flex flex-col justify-center items-center"
+                  className="absolute bottom-0 left-0 w-[300px] my-10 mx-12 bg-white  bg-opacity-75 p-4 flex flex-col justify-center items-center"
                   data-aos="fade-up"
                 >
                   <h1 className="text-2xl my-2">{member.name}</h1>
