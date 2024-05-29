@@ -13,7 +13,7 @@ function Card() {
         </p>
       </div>
       <div className="bg-accent/20">
-        <div className="grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-4 px-12">
+        <div className="max-w-[1320px] grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-4 px-12">
           {FetureData.map((card, index) => (
             <div
               key={index}
