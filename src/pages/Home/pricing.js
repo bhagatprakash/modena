@@ -27,7 +27,7 @@ function Pricing() {
                     {plan.title}
                   </h5>
                 </a>
-                <p className="mb-3 mx-4 text-4xl text-left font-bold text-green-500 dark:text-gray-400">
+                <p className="mb-3 mx-4 text-4xl text-left font-bold text-primary dark:text-gray-400">
                   {plan.price}
                 </p>
                 <p className="mb-3 text-lg font-normal mx-4 text-gray-500 dark:text-gray-400">
@@ -39,7 +39,7 @@ function Pricing() {
                     className="px-3 pt-4 pb-2 border-t border-gray-300"
                   >
                     <h1 className="text-left text-xl text-gray-750">
-                      <i className="fa-solid text-green-500 fa-circle-check"></i>{" "}
+                      <i className="fa-solid text-primary fa-circle-check"></i>{" "}
                       {feature}
                     </h1>
                     <p className="text-left text-lg text-gray-500 mx-6">
@@ -51,7 +51,7 @@ function Pricing() {
                   </div>
                 ))}
                 <div className="px-3 pt-4 pb-2 border-t mx-auto border-gray-300">
-                  <button className="font-semibold text-green-500 h-12 w-full border border-green-500 hover:bg-green-500 hover:text-white duration-1000">
+                  <button className="font-semibold text-primary h-12 w-full border border-primary hover:bg-primary hover:text-white duration-1000">
                     Choose this Plan
                   </button>
                 </div>

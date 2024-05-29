@@ -3,7 +3,7 @@ import { cardData } from "../assect/Data/likeData";
 
 function Like() {
   return (
-    <div className="bg-green-600">
+    <div className="bg-primary">
       <div className="container mx-auto relative py-10">
         <div className="bg-accent/20">
           <div className="max-w-[1320px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

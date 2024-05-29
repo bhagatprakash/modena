@@ -14,7 +14,7 @@ module.exports = {
         "1025-1165": { min: "1025px", max: "1165px" },
       },
       colors: {
-        primary: "#ee0181",
+        primary: "#3ab984",
       },
     },
   },

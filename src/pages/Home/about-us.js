@@ -12,7 +12,7 @@ function AboutUs() {
             We are a team of Real Estate agents with more than 60 years in
             combined experienced, based on the city of San Francisco.
           </h1>
-          <hr className="h-[3px] my-8 bg-green-400 border-0 w-[280px] dark:bg-green-600" />
+          <hr className="h-[3px] my-8 bg-primary border-0 w-[280px] dark:bg-green-600" />
           <p className="text-lg my-9">
             <img
               src={Aboutwo}

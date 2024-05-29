@@ -7,8 +7,8 @@ import card3 from "../assect/Images/card-3.jpg";
 function Footer() {
   return (
     <>
-      <div className="bg-green-600">
-        <div className="max-w-[1320px] flex flex-col mx-auto sm:flex-row">
+      <div className="bg-primary">
+        <div className="max-w-[1380px] flex flex-col mx-auto sm:flex-row">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 text-center md:text-left lg:grid-cols-5 my-10 px-5 gap-6">
             <div className="cursor-pointer text-white">
               <img

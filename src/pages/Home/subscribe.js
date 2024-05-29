@@ -6,7 +6,7 @@ function Subscribe() {
   return (
     <div className="py-10">
       <div className="flex flex-col md:flex-row mx-auto">
-        <div className="basis-full md:basis-1/2 bg-green-600 px-3 relative">
+        <div className="basis-full md:basis-1/2 bg-primary px-3 relative">
           <div
             className="flex flex-col items-center justify-center min-h-[50px] mt-[120px] md:text-left"
             data-aos="fade-right"
@@ -41,7 +41,7 @@ function Subscribe() {
               </div>
 
               <div className="text-center my-1 md:text-left">
-                <button className="btn h-[45px] w-full text-white font-semibold border border-gray-500 bg-green-700 mt-4 md:mt-0 hover:bg-green-600 hover:text-white duration-1000">
+                <button className="btn h-[45px] w-full text-white font-semibold border border-gray-500 bg-black-800 mt-4 md:mt-0 hover:bg-gray-500 hover:text-white duration-1000">
                   Submit
                 </button>
               </div>

@@ -38,7 +38,7 @@ function Properties() {
                 We have the property you are looking for, just let us know your
                 requirements.
               </h1>
-              <hr className="h-[3px] my-8 bg-green-400 border-0 w-[280px] dark:bg-green-600" />
+              <hr className="h-[3px] my-8 bg-primary border-0 w-[280px] dark:bg-green-600" />
               <p className="text-gray-500 my-2 text-left">
                 Cras pulvinar ultricies vehicula cras et nulla id lorem
                 vulputate pulvinar eget non neque. Proin feugiat justo vitae

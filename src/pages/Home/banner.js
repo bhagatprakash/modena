@@ -20,7 +20,7 @@ function Banner() {
           WE HAVE THE RIGHT PROPERTY FOR YOU
         </p>
 
-        <button className=" px-4 py-2 border-green-500 text-green-600 font-semibold   border rounded-full items-center justify-center hover:bg-green-500 hover:text-white duration-1000">
+        <button className=" px-4 py-2 border-primary text-primary font-semibold   border rounded-full items-center justify-center hover:bg-primary hover:text-white duration-1000">
           Learn more
         </button>
       </div>

@@ -45,7 +45,7 @@ function Carousal() {
                     Our designers will deliver a proposal in just few days.
                   </h1>
                   <div class="flex  text-left my-5">
-                    <hr className="h-[2px] bg-green-500 border-0 w-[200px]" />
+                    <hr className="h-[2px] bg-primary border-0 w-[200px]" />
                   </div>
                   <p className="text-[18px] sm:text-[15px] text-gray-400 font-semibold  text-left">
                     Cras pulvinar ultricies vehicula cras et nulla id lorem
@@ -62,7 +62,7 @@ function Carousal() {
             className="absolute top-0 right-[14px] z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             onClick={handlePrev}
           >
-            <span className="inline-flex items-center justify-center w-10 relative  right-[13px] bottom-[-190px] h-10  bg-green-500/80   ">
+            <span className="inline-flex items-center justify-center w-10 relative  right-[13px] bottom-[-190px] h-10  bg-primary   ">
               <svg
                 className="w-4 h-4 text-white "
                 aria-hidden="true"
@@ -86,7 +86,7 @@ function Carousal() {
             className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             onClick={handleNext}
           >
-            <span className="inline-flex items-center justify-center w-10 h-10  relative bg-green-500/80  left-[15px] bottom-[-190px]">
+            <span className="inline-flex items-center justify-center w-10 h-10  relative bg-primary   left-[15px] bottom-[-190px]">
               <svg
                 className="w-4 h-4 text-white"
                 aria-hidden="true"
