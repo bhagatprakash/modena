@@ -5,23 +5,28 @@ import { BlogData } from "../../assect/Data/blogData";
 function Blog() {
   return (
     <div>
-      <div className="container mx-auto relative py-10">
-        <p className="text-left text-[18px] font-bold ml-12">BLOG</p>
-        <h1 className="text-left text-4xl my-5 font-semibold ml-12">
-          Stay Updated
-        </h1>
-        <div className="bg-accent/20">
+      <div className="container mx-auto relative py-10 px-4 md:px-8 lg:px-12">
+        <div className="max-w-7xl mx-auto grid  ">
+          <p className="text-left text-[18px] font-bold">BLOG</p>
+          <h1 className="text-left text-4xl my-5 font-semibold">
+            Stay Updated
+          </h1>
+        </div>
+        <div className="bg-accent/20 p-4 md:p-6 lg:p-8">
           <div
-            className="grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-3 px-12 "
+            className="max-w-7xl mx-auto grid gap-10 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1"
             data-aos="fade-up"
           >
             {BlogData.map((blog) => (
-              <div key={blog.id} className=" my-6 bg-white">
+              <div
+                key={blog.id}
+                className="my-6 bg-white shadow-lg rounded-lg overflow-hidden"
+              >
                 <div className="h-[225px] overflow-hidden">
                   <img
                     src={blog.image}
                     alt="card"
-                    className="w-full h-full object-cover  hover:scale-125 duration-1000"
+                    className="w-full h-full object-cover hover:scale-125 transition-transform duration-1000"
                   />
                 </div>
                 <a href="#">
@@ -36,6 +41,7 @@ function Blog() {
             ))}
           </div>
         </div>
+
         <div className="flex justify-center my-5">
           <hr className="h-[1px] bg-gray-500 border-0 w-[700px] my-4 mx-5" />
           <img src={banner} alt="blog img" className="h-[30px]" />
@@ -47,3 +53,10 @@ function Blog() {
 }
 
 export default Blog;
+{
+  /* <div className="flex justify-center my-5">
+  <hr className="h-[1px] bg-gray-500 border-0 w-[700px] my-4 mx-5" />
+  <img src={banner} alt="blog img" className="h-[30px]" />
+  <hr className="h-[1px] bg-gray-500 border-0 w-[700px] my-4 mx-5" />
+</div>; */
+}

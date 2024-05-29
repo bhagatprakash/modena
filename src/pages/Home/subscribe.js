@@ -43,7 +43,6 @@ function Subscribe() {
               <div className="text-center my-1 md:text-left">
                 <button className="btn h-[45px] w-full text-white font-semibold border border-gray-500 bg-green-700 mt-4 md:mt-0 hover:bg-green-600 hover:text-white duration-1000">
                   Submit
-                  <i className="fa-solid fa-arrow-down mx-3"></i>
                 </button>
               </div>
             </form>

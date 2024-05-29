@@ -35,7 +35,7 @@ function Carousal() {
                   className="h-full w-full relative"
                 />
                 <div
-                  className=" md:w-[500px] sm:w-[300px] sm:p-5 sm:ml-10  max-auto bg-white border border-gray-500  relative lg:p-10 top-[-350px]  lg:right-[-80px] "
+                  className="  sm:w-[400px] sm:p-5 p-5 sm:px-[20px]  max-auto bg-white border border-gray-500  relative lg:p-10 top-[-350px]  lg:right-[-80px] "
                   data-aos="fade-right"
                 >
                   <p className="text-[18px] sm:text-[16px] text-left font-bold py-2">

@@ -3,12 +3,12 @@ import BannerImage from "../../assect/Images/banner-Image.png";
 
 function Banner() {
   return (
-    <div className="bg-banner h-[700px] bg-cover shadow-insetcustom flex items-center justify-center  ">
+    <div className="bg-banner h-[700px] bg-cover bg-no-repeat shadow-insetcustom flex items-center justify-center  ">
       <div className="text-center container mx-auto my-auto ">
         <img
           src={BannerImage}
           alt="banner-image"
-          className="mx-auto h-[30px] "
+          className="mx-auto h-[40px] "
         />
         <h1 className="text-5xl text-center text-white py-5  font-semibold">
           FIND YOUR NEXT

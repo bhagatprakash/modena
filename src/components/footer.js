@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       <div className="bg-green-600">
-        <div className="max-w-[1520px] flex flex-col mx-auto sm:flex-row">
+        <div className="max-w-[1320px] flex flex-col mx-auto sm:flex-row">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 text-center md:text-left lg:grid-cols-5 my-10 px-5 gap-6">
             <div className="cursor-pointer text-white">
               <img
@@ -58,7 +58,7 @@ function Footer() {
               <h1 className="text-[20px] font-semibold my-5">
                 LATEST PROPERTIES
               </h1>
-              <div className="grid gap-4">
+              <div className="grid gap-4 sm:text-center">
                 <div className=" w-full lg:max-w-[250px] lg:flex  shadow-md rounded-lg overflow-hidden">
                   <img
                     src={card1}
@@ -69,7 +69,7 @@ function Footer() {
                     <div>
                       <p className="text-white font-bold text-left">HOUSE</p>
                       <div className="text-white text-left text-xl mb-2">
-                        $290,000
+                        $500,000
                       </div>
                     </div>
                   </div>
@@ -77,7 +77,7 @@ function Footer() {
                 <div className="flex  justify-center">
                   <hr className="h-[1px] bg-gray-500 border-0 w-full" />
                 </div>
-                <div className="max-w-sm w-full lg:max-w-[250px] lg:flex  shadow-md rounded-lg overflow-hidden">
+                <div className=" w-full lg:max-w-[250px] lg:flex  shadow-md rounded-lg overflow-hidden">
                   <img
                     src={card2}
                     alt="Property"
@@ -87,17 +87,18 @@ function Footer() {
                     <div>
                       <p className="text-white font-bold text-left">OFFICE</p>
                       <div className="text-white text-left text-xl mb-2">
-                        $500,000
+                        $200,000
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <div className="flex  justify-center">
                   <hr className="h-[1px] bg-gray-500 border-0 w-full" />
                 </div>
-                <div className="max-w-sm w-full lg:max-w-[250px] lg:flex  shadow-md rounded-lg overflow-hidden">
+                <div className=" w-full lg:max-w-[250px] lg:flex  shadow-md rounded-lg overflow-hidden">
                   <img
-                    src={card3}
+                    src={card1}
                     alt="Property"
                     className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover   hover:scale-125 duration-1000"
                   />
@@ -107,7 +108,7 @@ function Footer() {
                         APARTMENT
                       </p>
                       <div className="text-white text-left text-xl mb-2">
-                        $170,000
+                        $300,000
                       </div>
                     </div>
                   </div>

@@ -17,7 +17,7 @@ function Card() {
           {FetureData.map((card, index) => (
             <div
               key={index}
-              className="max-w-sm my-6 bg-white rounded-lg shadow-xl border border-gray-300 dark:border-gray-700"
+              className="my-6 bg-white rounded-lg shadow-xl border border-gray-300 dark:border-gray-700"
             >
               <div className="h-[225px] overflow-hidden rounded-t-lg ">
                 <img
@@ -37,7 +37,7 @@ function Card() {
               <p className="mb-3 font-normal mx-4 text-gray-500 dark:text-gray-400 text-left">
                 {card.location}
               </p>
-              <div className="px-3 pt-4 pb-2 border-t border-gray-300">
+              <div className=" pt-4 pb-2 border-t border-gray-300">
                 <span className="inline-block px-3 py-1 text-sm font-semibold border p-5 border-gray-300 text-gray-700 mr-2 mb-2 text-left">
                   <i className="fa-solid fa-bed mx-2"></i> {card.bedrooms}{" "}
                   Bedrooms

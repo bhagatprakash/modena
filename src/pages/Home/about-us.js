@@ -26,7 +26,7 @@ function AboutUs() {
           <img
             src={About}
             alt="about image"
-            className="w-full "
+            className="w-full h-[655px]"
             data-aos="fade-left"
           />
           <p

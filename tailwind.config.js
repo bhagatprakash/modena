@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         banner: "url(./assect/Images/banner-baground-Image.jpg)",
+        hight: "h-full",
       },
       boxShadow: {
         insetcustom: "inset 0 0 0 2000px rgba(0, 0,0, 0.56)",

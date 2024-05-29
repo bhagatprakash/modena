@@ -12,7 +12,6 @@ import Testimonials from "./testimonials";
 import Images from "../../assect/Images/images.jpg";
 import Blog from "./blog";
 import Carousal from "./carousal";
-import Footer from "../../components/footer";
 
 function index() {
   return (
@@ -44,15 +43,12 @@ function index() {
       {/* image  */}
       <img
         src={Images}
-        alt="image"
-        className="w-full h-auto max-h-[500px] my-10"
+        alt="Descriptive Alt Text"
+        className="w-full h-auto max-h-[500px] my-10 cover"
       />
 
       {/* bolg section  */}
       <Blog />
-
-      {/* footer  */}
-      <Footer />
     </div>
   );
 }

@@ -20,11 +20,24 @@ function Testimonials() {
 
   return (
     <>
+      <div className="flex justify-between items-center my-5 w-[70%]  mx-auto">
+        <img
+          src={test}
+          alt="test img"
+          className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative"
+        />
+        <img
+          src={test1}
+          alt="test img"
+          className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative "
+        />
+      </div>
       <div
         id="controls-carousel"
-        className="relative w-full bg-carosalImage   h-[420px]  rounded-lg "
+        className="relative w-full bg-carosalImage   h-[320px]  rounded-lg "
       >
         {/* Carousel wrapper */}
+
         <div className="">
           {cardData.map((item, index) => (
             <div
@@ -35,7 +48,7 @@ function Testimonials() {
               data-carousel-item={index === activeIndex}
             >
               <div className="item  text-center mx-auto py-10 w-full max-w-[44rem] px-4 sm:px-6 lg:px-8">
-                <h2 className="text-xl font-bold">Testimonials</h2>
+                <h2 className="text-2xl font-bold">Testimonials</h2>
 
                 <h1 className=" lg:text-3xl text-xl my-5 lg:leading-normal mx-auto ">
                   {item.content}
@@ -47,29 +60,6 @@ function Testimonials() {
                 <div className="mx-auto text-center my-5">
                   <h1 className="text-xl  font-semibold">{item.job}</h1>
                 </div>
-              </div>
-
-              <div className="z-10">
-                <img
-                  src={test}
-                  alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative lg:top-[-330px] lg:right-[-290px] md:top-[-350px] md:right-[-100px] sm:right-[-30px] top-[-450px]"
-                />
-                <img
-                  src={test1}
-                  alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative lg:top-[-100px] lg:right-[-250px] top-[-200px] md:top-[-137px] md:right-[-200px] right-[70px]"
-                />
-                <img
-                  src={test2}
-                  alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border float-end border-green-400 relative lg:top-[-330px] md:right-[91px] lg:right-[400px] top-[-550px] sm:top-[-350px]"
-                />
-                <img
-                  src={test3}
-                  alt="test img"
-                  className="rounded-full lg:h-[120px] h-[80px] border float-end border-green-400 relative lg:top-[-150px] lg:right-[400px] md:right-[114px] md:top-[-70px] top-[-150px] right-[-100px]"
-                />
               </div>
             </div>
           ))}
@@ -123,6 +113,19 @@ function Testimonials() {
             <span className="sr-only">Next</span>
           </span>
         </button>
+      </div>
+
+      <div className="flex justify-between items-center w-[50%]  mx-auto">
+        <img
+          src={test2}
+          alt="test img"
+          className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative"
+        />
+        <img
+          src={test3}
+          alt="test img"
+          className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative "
+        />
       </div>
       <div class="flex justify-center my-5">
         <hr className="h-[1px] bg-gray-500 border-0 w-[1500px]" />

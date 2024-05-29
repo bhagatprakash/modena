@@ -1,6 +1,6 @@
 import "./App.css";
-import Footer from "./components/footer";
 import Header from "./components/header";
+import Footer from "./components/footer";
 import "animate.css";
 
 // react router
@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <Header />
       <RouterProvider router={router} />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

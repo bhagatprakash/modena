@@ -12,7 +12,7 @@ function Properties() {
             <img
               src={Properti}
               alt="about image"
-              className="w-full "
+              className="w-full  h-[700px] "
               data-aos="fade-right"
             />
             <p
@@ -31,9 +31,9 @@ function Properties() {
                 className="w-full  "
                 data-aos="fade-left"
               />
-              <p className="text-xl  text-left my-5 font-semibold">
+              <div className="text-xl  text-left my-5 font-semibold">
                 PROPERTIES
-              </p>
+              </div>
               <h1 className="text-3xl  text-left ">
                 We have the property you are looking for, just let us know your
                 requirements.
@@ -47,7 +47,7 @@ function Properties() {
             </p>
           </div>
         </div>
-        <div class="flex justify-center my-5">
+        <div className="flex justify-center my-5">
           <hr className="h-[1px] bg-gray-500 border-0 w-[1500px]" />
         </div>
       </div>

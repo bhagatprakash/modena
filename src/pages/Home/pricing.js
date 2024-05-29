@@ -12,7 +12,7 @@ function Pricing() {
             Enjoy this amazing amenity that has all you need to jump in
           </p>
         </div>
-        <div className="bg-accent/20 py-10">
+        <div className="bg-accent/20 ">
           <div
             className="max-w-7xl mx-auto grid gap-10 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  "
             data-aos="fade-up"
@@ -23,11 +23,11 @@ function Pricing() {
                 className="max-w-sm mx-auto my-6 bg-white border-t p-5 rounded-lg shadow-xl border border-gray-300 dark:border-gray-700"
               >
                 <a href="#">
-                  <h5 className="my-5 text-lg mx-4 font-semibold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="my-5 text-lg mx-4 text-left font-semibold tracking-tight text-gray-900 dark:text-white">
                     {plan.title}
                   </h5>
                 </a>
-                <p className="mb-3 mx-4 text-4xl font-bold text-green-500 dark:text-gray-400">
+                <p className="mb-3 mx-4 text-4xl text-left font-bold text-green-500 dark:text-gray-400">
                   {plan.price}
                 </p>
                 <p className="mb-3 text-lg font-normal mx-4 text-gray-500 dark:text-gray-400">

@@ -6,8 +6,7 @@ function PropertyDeals() {
   return (
     <>
       <div className="my-10 ">
-        <h1 className="text-xl font-semibold">FEATURED</h1>
-        <h1 className="text-3xl font-semibold">Best Property Deals</h1>
+        <h1 className="text-3xl font-semibold">Last Property Deals</h1>
         <p className="my-2 text-lg text-gray-400">
           Enjoy this amazing amenitie that has all you need to jump in
         </p>

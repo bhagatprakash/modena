@@ -3,9 +3,9 @@ import { teamMembers } from "../../assect/Data/temData";
 
 function Team() {
   return (
-    <div className="container mx-auto relative py-10">
+    <div className="container mx-auto relative my-5 ">
       <div className="my-10">
-        <h1 className="text-xl text-center py-2 font-semibold">TEAM</h1>
+        <h1 className="text-xl text-center py-2  font-semibold">TEAM</h1>
         <h1 className="text-3xl text-center font-semibold">Our Company Team</h1>
         <p className="my-1 text-[18px] text-center text-gray-400">
           Enjoy this amazing amenity that has all you need to jump in
@@ -16,7 +16,7 @@ function Team() {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="max-w-sm mx-auto my-6 bg-white rounded-lg shadow-xl border border-gray-300 dark:border-gray-700"
+              className="max-w-sm mx-auto  bg-white rounded-lg shadow-xl border border-gray-300 dark:border-gray-700"
             >
               <div className="relative overflow-hidden rounded-t-lg">
                 <img
@@ -38,7 +38,6 @@ function Team() {
             </div>
           ))}
         </div>
-        <hr className="h-px my-10 bg-gray-400 border-0" />
       </div>
     </div>
   );
