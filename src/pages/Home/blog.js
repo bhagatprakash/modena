@@ -8,11 +8,11 @@ function Blog() {
       <div className="container mx-auto relative py-10 px-4 md:px-8 lg:px-12">
         <div className="max-w-7xl mx-auto grid  ">
           <p className="text-left text-[18px] font-bold">BLOG</p>
-          <h1 className="text-left text-4xl my-5 font-semibold">
+          <h1 className="text-left text-4xl my-2 font-semibold">
             Stay Updated
           </h1>
         </div>
-        <div className="bg-accent/20 p-4 md:p-6 lg:p-8">
+        <div className="bg-accent/20 p-4 md:p-6 ">
           <div
             className="max-w-7xl mx-auto grid gap-10 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1"
             data-aos="fade-up"
