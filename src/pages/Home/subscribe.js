@@ -16,13 +16,13 @@ function Subscribe() {
               alt="banner-image"
               className="h-[30px] filter invert brightness-0"
             />
-            <h1 className="text-3xl text-white py-5 font-semibold text-left">
-              FIND YOUR NEXT
+            <h1 className="text-[37px] text-white  font-semibold text-left">
+              Subscribe to our
             </h1>
-            <h1 className="text-3xl text-white font-semibold text-left">
-              REAL ESTATE PROPERTY
+            <h1 className="text-[37px] text-white font-semibold text-left">
+              Newsletter
             </h1>
-            <p className="font-semibold text-white py-3 text-left">
+            <p className="font-semibold text-white text-[15px] py-2 text-left">
               WE HAVE THE RIGHT PROPERTY FOR YOU
             </p>
 
@@ -31,12 +31,12 @@ function Subscribe() {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="border border-gray-500 py-1 h-[45px] px-2"
+                  className="border border-gray-500 py-1 h-[40px] px-2"
                 />
                 <input
                   type="email"
                   placeholder="Email"
-                  className="border border-gray-500 py-1 px-2 h-[45px]"
+                  className="border border-gray-500 py-1 px-2 h-[40px]"
                 />
               </div>
 

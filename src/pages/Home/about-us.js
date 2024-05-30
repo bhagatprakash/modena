@@ -7,8 +7,8 @@ function AboutUs() {
     <div className="">
       <div className="max-w-[1320px] md:py-[80] gap-10 p-10 flex  mx-auto md:flex-row flex-col">
         <div className="basis-[49%] px-3 my-5">
-          <p className="text-xl  text-left font-semibold">ABOUT US</p>
-          <h1 className="text-3xl my-3 text-left ">
+          <p className="text-[14px]  text-left font-bold">ABOUT US</p>
+          <h1 className="text-[26px] my-3 text-left ">
             We are a team of Real Estate agents with more than 60 years in
             combined experienced, based on the city of San Francisco.
           </h1>

@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       <div className="bg-primary">
-        <div className="max-w-[1380px] flex flex-col mx-auto sm:flex-row">
+        <div className="max-w-[1320px] flex flex-col mx-auto sm:flex-row">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 text-center md:text-left lg:grid-cols-5 my-10 px-5 gap-6">
             <div className="cursor-pointer text-white">
               <img
@@ -16,46 +16,46 @@ function Footer() {
                 alt="blog img"
                 className="h-[30px]  my-6 mx-auto md:mx-0  filter invert brightness-0"
               />
-              <h1 className="text-2xl font-semibold">MODENA</h1>
-              <p className="text-[20px] my-3">
+              <h1 className="text-[20px] font-semibold">MODENA</h1>
+              <p className="text-[15px] my-3">
                 Modena is a Real Estate Webflow template that was thought to be
                 easy to customize and easy to create your property listings.
               </p>
               <div className="space-x-3 text-center lg:text-left  py-3">
-                <i className="text-[20px] fa-brands fa-instagram  hover:bg-white-500 hover:text-gray-300  "></i>
-                <i className="text-[20px] fa-brands fa-whatsapp hover:bg-white-500 hover:text-gray-300 "></i>
-                <i className="text-[20px] fa-brands fa-facebook hover:bg-white-500 hover:text-gray-300 "></i>
-                <i className="text-[20px] fa-brands fa-twitter hover:bg-white-500 hover:text-gray-300 "></i>
-                <i className="text-[20px] fa-brands fa-youtube hover:bg-white-500 hover:text-gray-300"></i>
-                <i className="text-[20px] fa-brands fa-tiktok hover:bg-white-500 hover:text-gray-300 "></i>
+                <i className="text-[15px] fa-brands fa-instagram  hover:bg-white-500 hover:text-gray-300  "></i>
+                <i className="text-[15px] fa-brands fa-whatsapp hover:bg-white-500 hover:text-gray-300 "></i>
+                <i className="text-[15px] fa-brands fa-facebook hover:bg-white-500 hover:text-gray-300 "></i>
+                <i className="text-[15px] fa-brands fa-twitter hover:bg-white-500 hover:text-gray-300 "></i>
+                <i className="text-[15px] fa-brands fa-youtube hover:bg-white-500 hover:text-gray-300"></i>
+                <i className="text-[15px] fa-brands fa-tiktok hover:bg-white-500 hover:text-gray-300 "></i>
               </div>
             </div>
             <div className="cursor-pointer text-white">
-              <h1 className="text-[20px] font-semibold my-5">MENU</h1>
-              <p className="text-[20px] py-1">Home</p>
-              <p className="text-[20px] py-1">Services</p>
-              <p className="text-[20px] py-1">About Us</p>
-              <p className="text-[20px] py-1">Properties</p>
-              <p className="text-[20px] py-1">Faq</p>
-              <p className="text-[20px] py-1">Blog</p>
-              <p className="text-[20px] py-1">Contact Us</p>
+              <h1 className="text-[17px] font-semibold my-5">MENU</h1>
+              <p className="text-[15px] py-1 ">Home</p>
+              <p className="text-[15px] py-1">Services</p>
+              <p className="text-[15px] py-1">About Us</p>
+              <p className="text-[15px] py-1">Properties</p>
+              <p className="text-[15px] py-1">Faq</p>
+              <p className="text-[15px] py-1">Blog</p>
+              <p className="text-[15px] py-1">Contact Us</p>
             </div>
             <div className="cursor-pointer text-white">
-              <h1 className="text-[20px] font-semibold my-5">SOCIAL</h1>
-              <p className="text-[20px] py-1">Facebook</p>
-              <p className="text-[20px] cursor-pointer">Twitter</p>
-              <p className="text-[20px] py-1">Instagram</p>
-              <p className="text-[20px] py-1">Linkedin</p>
+              <h1 className="text-[17px] font-semibold my-5">SOCIAL</h1>
+              <p className="text-[15px] py-1">Facebook</p>
+              <p className="text-[15px] cursor-pointer">Twitter</p>
+              <p className="text-[15px] py-1">Instagram</p>
+              <p className="text-[15px] py-1">Linkedin</p>
             </div>
             <div className="cursor-pointer text-white">
-              <h1 className="text-[20px] font-semibold my-5">CONTACT</h1>
-              <p className="text-[20px] py-1">Evergreen 27</p>
-              <p className="text-[20px] cursor-pointer">San Francisco, Cal</p>
-              <p className="text-[20px] py-1">800 123-456</p>
-              <p className="text-[20px] py-1">abc@shivay.com</p>
+              <h1 className="text-[17px] font-semibold my-5">CONTACT</h1>
+              <p className="text-[15px] py-1">Evergreen 27</p>
+              <p className="text-[15px] cursor-pointer">San Francisco, Cal</p>
+              <p className="text-[15px] py-1">800 123-456</p>
+              <p className="text-[15px] py-1">abc@shivay.com</p>
             </div>
             <div className="cursor-pointer text-white">
-              <h1 className="text-[20px] font-semibold my-5">
+              <h1 className="text-[17px] font-semibold my-5">
                 LATEST PROPERTIES
               </h1>
               <div className="grid gap-4 sm:text-center">
@@ -65,10 +65,11 @@ function Footer() {
                     alt="Property"
                     className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover   hover:scale-125 duration-1000"
                   />
+
                   <div className="p-4 flex flex-col justify-between leading-normal">
                     <div>
                       <p className="text-white font-bold text-left">HOUSE</p>
-                      <div className="text-white text-left text-xl mb-2">
+                      <div className="text-white text-left text-[18px] mb-2">
                         $500,000
                       </div>
                     </div>
@@ -86,7 +87,7 @@ function Footer() {
                   <div className="p-4 flex flex-col justify-between leading-normal">
                     <div>
                       <p className="text-white font-bold text-left">OFFICE</p>
-                      <div className="text-white text-left text-xl mb-2">
+                      <div className="text-white text-left text-[18px] mb-2">
                         $200,000
                       </div>
                     </div>
@@ -107,7 +108,7 @@ function Footer() {
                       <p className="text-white font-bold text-left">
                         APARTMENT
                       </p>
-                      <div className="text-white text-left text-xl mb-2">
+                      <div className="text-white text-left text-[18px] mb-2">
                         $300,000
                       </div>
                     </div>

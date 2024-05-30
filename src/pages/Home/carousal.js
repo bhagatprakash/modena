@@ -38,16 +38,16 @@ function Carousal() {
                   className="  sm:w-[400px] sm:p-5 p-5 sm:px-[20px]  max-auto bg-white border border-gray-500  relative lg:p-10 top-[-350px]  lg:right-[-80px] "
                   data-aos="fade-right"
                 >
-                  <p className="text-[18px] sm:text-[16px] text-left font-bold py-2">
+                  <p className="text-[15px] sm:text-[16px] text-left font-bold py-2">
                     DESIGN
                   </p>
-                  <h1 className="text-3xl  sm-text-xl text-gray-800 font-semibold text-left">
+                  <h1 className="text-[26px]  sm-text-xl text-gray-800 font-semibold text-left">
                     Our designers will deliver a proposal in just few days.
                   </h1>
                   <div class="flex  text-left my-5">
                     <hr className="h-[2px] bg-primary border-0 w-[200px]" />
                   </div>
-                  <p className="text-[18px] sm:text-[15px] text-gray-400 font-semibold  text-left">
+                  <p className="text-[14px] sm:text-[15px] text-gray-400 font-semibold  text-left">
                     Cras pulvinar ultricies vehicula cras et nulla id lorem
                     vulputate pulvinar eget non neque. Proin feugiat justo vitae
                     euismod fringilla.

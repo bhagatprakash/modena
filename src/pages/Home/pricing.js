@@ -5,10 +5,10 @@ function Pricing() {
   return (
     <div>
       <div className="container mx-auto relative py-10 px-4">
-        <div className="my-10 text-center">
-          <h1 className="text-xl py-1 font-semibold">PRICING</h1>
-          <h1 className="text-3xl py-2 font-semibold">Simple Plans Pricing</h1>
-          <p className="my-1 text-lg text-gray-400">
+        <div className="my-5 text-center">
+          <h1 className="text-[13px] py-1 font-bold">PRICING</h1>
+          <h1 className="text-[30px]  ">Simple Plans Pricing</h1>
+          <p className="my-1 text-[15px] text-gray-400">
             Enjoy this amazing amenity that has all you need to jump in
           </p>
         </div>
@@ -23,11 +23,11 @@ function Pricing() {
                 className="max-w-sm mx-auto my-6 bg-white border-t p-5 rounded-lg shadow-xl border border-gray-300 dark:border-gray-700"
               >
                 <a href="#">
-                  <h5 className="my-5 text-lg mx-4 text-left font-semibold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="my-2 text-[13px] mx-4 text-left font-bold tracking-tight text-gray-900 dark:text-white">
                     {plan.title}
                   </h5>
                 </a>
-                <p className="mb-3 mx-4 text-4xl text-left font-bold text-primary dark:text-gray-400">
+                <p className="mb-3 mx-4 text-[40px] text-left font-bold text-primary dark:text-gray-400">
                   {plan.price}
                 </p>
                 <p className="mb-3 text-lg font-normal mx-4 text-gray-500 dark:text-gray-400">
@@ -38,11 +38,11 @@ function Pricing() {
                     key={featureIndex}
                     className="px-3 pt-4 pb-2 border-t border-gray-300"
                   >
-                    <h1 className="text-left text-xl text-gray-750">
+                    <h1 className="text-left text-[19px] text-gray-750">
                       <i className="fa-solid text-primary fa-circle-check"></i>{" "}
                       {feature}
                     </h1>
-                    <p className="text-left text-lg text-gray-500 mx-6">
+                    <p className="text-left text-[14px] text-gray-500 mx-6">
                       Enjoy an all day solar heated pool.
                     </p>
                     {featureIndex < plan.features.length - 1 && (

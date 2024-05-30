@@ -2,50 +2,54 @@ import React from "react";
 import { FetureData } from "../../assect/Data/fetureData";
 function Card() {
   return (
-    <div className="container mx-auto relative py-10">
-      <div className="my-10">
-        <h1 className="text-xl text-center py-2 font-semibold">FEATURED</h1>
-        <h1 className="text-3xl text-center font-semibold">
-          Best Property Deals
-        </h1>
-        <p className="my-1 text-[18px] text-center text-gray-400">
+    <div className="max-w-[1320px]  mx-auto relative">
+      <div className="my-5">
+        <h1 className="text-[14px] text-center py-2 font-bold">FEATURED</h1>
+        <h1 className="text-[30px] text-center ">Best Property Deals</h1>
+        <p className="my-1 text-[15px] text-center text-gray-400">
           Enjoy this amazing amenitie that has all you need to jump in
         </p>
       </div>
       <div className="bg-accent/20">
-        <div className=" grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-4 px-12">
+        <div className="max-w-[1320px] grid grid-cols-1 gap-6 sm-text-center sm:grid-cols-2 lg:grid-cols-4 px-12">
           {FetureData.map((card, index) => (
             <div
               key={index}
               className="my-6 bg-white rounded-lg shadow-xl border border-gray-300 dark:border-gray-700"
             >
-              <div className="h-[225px] overflow-hidden rounded-t-lg ">
+              <div className="h-[225px] overflow-hidden rounded-t-lg relative">
                 <img
                   src={card.image}
                   alt="card"
                   className="w-full h-full object-cover hover:scale-125 duration-1000"
                 />
+                <span className="absolute top-0 right-0 bg-green-500 m-2 p-1 text-[10px] font-semibold text-white ">
+                  For Sale
+                </span>
               </div>
+
               <a href="#">
-                <h5 className="my-5 text-xl mx-4 font-semibold tracking-tight text-gray-900 dark:text-white text-left">
+                <h5 className="my-2 text-[14px] mx-4 font-semibold tracking-tight text-gray-900 dark:text-white text-left">
                   {card.type}
                 </h5>
               </a>
-              <p className="mb-3 font-normal mx-4 text-xl text-gray-500 dark:text-gray-400 text-left">
+              <p className="mb- font-normal mx-4 text-[22px] text-gray-500 dark:text-gray-400 text-left">
                 {card.price}
               </p>
-              <p className="mb-3 font-normal mx-4 text-gray-500 dark:text-gray-400 text-left">
+              <p className="mb-3 font-[14px] mx-4 text-gray-500 dark:text-gray-400 text-left">
                 {card.location}
               </p>
-              <div className=" pt-4 pb-2 border-t border-gray-300">
-                <span className="inline-block px-3 py-1 text-sm font-semibold border p-5 border-gray-300 text-gray-700 mr-2 mb-2 text-left">
-                  <i className="fa-solid fa-bed mx-2"></i> {card.bedrooms}{" "}
-                  Bedrooms
-                </span>
-                <span className="inline-block px-3 py-1 text-sm font-semibold border p-5 border-gray-300 text-gray-700 mr-2 mb-2 text-left">
-                  <i className="fa-solid fa-sink mx-2"></i>
-                  {card.bathrooms} Bathrooms
-                </span>
+              <div className="pt-4 pb-2 border-t border-gray-300">
+                <div className="flex justify-between">
+                  <span className="inline-block px-3 py-1 text-[13px] font-semibold border p-5 border-gray-300 text-gray-700 mr-2 mb-2 text-left">
+                    <i className="fa-solid fa-bed mx-2"></i> {card.bedrooms}{" "}
+                    Bedrooms
+                  </span>
+                  <span className="inline-block px-3 py-1 text-[13px] font-semibold border p-5 border-gray-300 text-gray-700 mr-2 mb-2 text-left">
+                    <i className="fa-solid fa-sink mx-2"></i> {card.bathrooms}{" "}
+                    Bathrooms
+                  </span>
+                </div>
               </div>
             </div>
           ))}

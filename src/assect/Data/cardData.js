@@ -29,7 +29,7 @@ export const properties = [
     address: "Rodeo Drive, 325",
     bedrooms: 3,
     bathrooms: 2,
-    image: card4,
+    image: card3,
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const properties = [
     address: "Rodeo Drive, 325",
     bedrooms: 3,
     bathrooms: 2,
-    image: card3,
+    image: card4,
   },
   {
     id: 5,
@@ -56,6 +56,6 @@ export const properties = [
     address: "Rodeo Drive, 325",
     bedrooms: 3,
     bathrooms: 2,
-    image: card3,
+    image: card1,
   },
 ];

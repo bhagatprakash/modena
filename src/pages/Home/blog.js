@@ -7,8 +7,8 @@ function Blog() {
     <div>
       <div className="container mx-auto relative py-10 px-4 md:px-8 lg:px-12">
         <div className="max-w-7xl mx-auto grid  ">
-          <p className="text-left text-[18px] font-bold">BLOG</p>
-          <h1 className="text-left text-4xl my-2 font-semibold">
+          <p className="text-left text-[15px] font-bold">BLOG</p>
+          <h1 className="text-left text-[30px] my-2 font-semibold">
             Stay Updated
           </h1>
         </div>
@@ -30,11 +30,11 @@ function Blog() {
                   />
                 </div>
                 <a href="#">
-                  <h5 className="my-3 text-2xl mx-4 font-semibold tracking-tight text-gray-700 dark:text-white text-left">
+                  <h5 className="my-3 text-[22px] mx-4 font-semibold tracking-tight text-gray-700 dark:text-white text-left">
                     {blog.title}
                   </h5>
                 </a>
-                <p className="mb-3 font-normal mx-4 text-[18px] text-gray-500 dark:text-gray-400 text-left">
+                <p className="mb-3 font-normal mx-4 text-[15px] text-gray-500 dark:text-gray-400 text-left">
                   {blog.category}
                 </p>
               </div>

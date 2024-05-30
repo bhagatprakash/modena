@@ -5,9 +5,11 @@ function Team() {
   return (
     <div className="container mx-auto relative my-5 ">
       <div className="my-10">
-        <h1 className="text-xl text-center py-2  font-semibold">TEAM</h1>
-        <h1 className="text-3xl text-center font-semibold">Our Company Team</h1>
-        <p className="my-1 text-[18px] text-center text-gray-400">
+        <h1 className="text-[13px] text-center py-2  font-bold">TEAM</h1>
+        <h1 className="text-[30px] text-center font-semibold">
+          Our Company Team
+        </h1>
+        <p className="my-1 text-[15px] text-center text-gray-400">
           Enjoy this amazing amenity that has all you need to jump in
         </p>
       </div>

@@ -31,15 +31,15 @@ function Properties() {
                 className="w-full  "
                 data-aos="fade-left"
               />
-              <div className="text-xl  text-left my-5 font-semibold">
+              <div className="text-[14px]  text-left my-5 font-semibold">
                 PROPERTIES
               </div>
-              <h1 className="text-3xl  text-left ">
+              <h1 className="text-[26px]  text-left ">
                 We have the property you are looking for, just let us know your
                 requirements.
               </h1>
               <hr className="h-[3px] my-8 bg-primary border-0 w-[280px] dark:bg-green-600" />
-              <p className="text-gray-500 my-2 text-left">
+              <p className="text-gray-500 my-2 text-[15px] text-left">
                 Cras pulvinar ultricies vehicula cras et nulla id lorem
                 vulputate pulvinar eget non neque. Proin feugiat justo vitae
                 euismod fringilla.
