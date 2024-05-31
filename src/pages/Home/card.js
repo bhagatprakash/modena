@@ -21,7 +21,8 @@ function Card() {
                 <img
                   src={card.image}
                   alt="card"
-                  className="w-full h-full object-cover hover:scale-125 duration-1000"
+                  className="w-full h-full object-cover hover:scale-125 duration-1000 "
+                  style={{ objectFit: "cover" }}
                 />
                 <span className="absolute top-0 right-0 bg-green-500 m-2 p-1 text-[10px] font-semibold text-white ">
                   For Sale
@@ -39,7 +40,7 @@ function Card() {
               <p className="mb-3 font-[14px] mx-4 text-gray-500 dark:text-gray-400 text-left">
                 {card.location}
               </p>
-              <div className="pt-4 pb-2 border-t border-gray-300">
+              <div className="pt-4 ml-[8px] pb-2 border-t border-gray-300">
                 <div className="flex justify-between">
                   <span className="inline-block px-3 py-1 text-[13px] font-semibold border p-5 border-gray-300 text-gray-700 mr-2 mb-2 text-left">
                     <i className="fa-solid fa-bed mx-2"></i> {card.bedrooms}{" "}

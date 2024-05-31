@@ -19,6 +19,7 @@ function Header() {
               src={HeaderImage}
               className="h-[24px] my-3"
               alt="header-image"
+              style={{ objectFit: "cover" }}
             />
           </div>
           <div className="flex md:hidden">

@@ -13,6 +13,7 @@ function Properties() {
               src={Properti}
               alt="about image"
               className="w-full  h-[700px] "
+              style={{ objectFit: "cover" }}
               data-aos="fade-right"
             />
             <p
@@ -29,6 +30,7 @@ function Properties() {
                 src={PropertiTwo}
                 alt="about image"
                 className="w-full  "
+                style={{ objectFit: "cover" }}
                 data-aos="fade-left"
               />
               <div className="text-[14px]  text-left my-5 font-semibold">

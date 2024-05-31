@@ -45,6 +45,7 @@ function index() {
         src={Images}
         alt="Descriptive Alt Text"
         className="w-full h-auto max-h-[500px] my-10 cover"
+        style={{ objectFit: "cover" }}
       />
 
       {/* bolg section  */}

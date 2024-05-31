@@ -27,6 +27,7 @@ function Blog() {
                     src={blog.image}
                     alt="card"
                     className="w-full h-full object-cover hover:scale-125 transition-transform duration-1000"
+                    style={{ objectFit: "cover" }}
                   />
                 </div>
                 <a href="#">

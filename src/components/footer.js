@@ -64,6 +64,7 @@ function Footer() {
                     src={card1}
                     alt="Property"
                     className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover   hover:scale-125 duration-1000"
+                    style={{ objectFit: "cover" }}
                   />
 
                   <div className="p-4 flex flex-col justify-between leading-normal">
@@ -83,6 +84,7 @@ function Footer() {
                     src={card2}
                     alt="Property"
                     className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover   hover:scale-125 duration-1000"
+                    style={{ objectFit: "cover" }}
                   />
                   <div className="p-4 flex flex-col justify-between leading-normal">
                     <div>
@@ -102,6 +104,7 @@ function Footer() {
                     src={card1}
                     alt="Property"
                     className="h-48 w-full lg:h-auto lg:w-20 sm:h-[100px] object-cover   hover:scale-125 duration-1000"
+                    style={{ objectFit: "cover" }}
                   />
                   <div className="p-4 flex flex-col justify-between leading-normal">
                     <div>

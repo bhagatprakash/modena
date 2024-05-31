@@ -25,11 +25,13 @@ function Testimonials() {
           src={test}
           alt="test img"
           className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative"
+          style={{ objectFit: "cover" }}
         />
         <img
           src={test1}
           alt="test img"
           className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative "
+          style={{ objectFit: "cover" }}
         />
       </div>
       <div
@@ -120,11 +122,13 @@ function Testimonials() {
           src={test2}
           alt="test img"
           className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative"
+          style={{ objectFit: "cover" }}
         />
         <img
           src={test3}
           alt="test img"
           className="rounded-full lg:h-[120px] h-[80px] border float-start border-green-400 relative "
+          style={{ objectFit: "cover" }}
         />
       </div>
       <div class="flex justify-center my-5">

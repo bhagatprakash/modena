@@ -18,6 +18,7 @@ function AboutUs() {
               src={Aboutwo}
               alt="about image"
               className="w-full "
+              style={{ objectFit: "cover" }}
               data-aos="fade-right"
             />
           </p>
@@ -27,6 +28,7 @@ function AboutUs() {
             src={About}
             alt="about image"
             className="w-full h-[655px]"
+            style={{ objectFit: "cover" }}
             data-aos="fade-left"
           />
           <p

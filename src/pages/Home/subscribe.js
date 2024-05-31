@@ -15,6 +15,7 @@ function Subscribe() {
               src={BannerImage}
               alt="banner-image"
               className="h-[30px] filter invert brightness-0"
+              style={{ objectFit: "cover" }}
             />
             <h1 className="text-[37px] text-white  font-semibold text-left">
               Subscribe to our
@@ -49,7 +50,12 @@ function Subscribe() {
           </div>
         </div>
         <div className="basis-full md:basis-1/2">
-          <img src={Subsc} alt="about image" className="w-full h-[100%]" />
+          <img
+            src={Subsc}
+            alt="about image"
+            className="w-full h-[100%]"
+            style={{ objectFit: "cover" }}
+          />
         </div>
       </div>
     </div>

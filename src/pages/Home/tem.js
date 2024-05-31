@@ -25,6 +25,7 @@ function Team() {
                   src={member.imgSrc}
                   alt={member.name}
                   className="w-full h-full object-cover"
+                  style={{ objectFit: "cover" }}
                 />
                 <div
                   className="absolute bottom-0 left-0 w-[300px] my-10 mx-12 bg-white  bg-opacity-75 p-4 flex flex-col justify-center items-center"

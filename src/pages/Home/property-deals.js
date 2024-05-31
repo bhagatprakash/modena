@@ -6,7 +6,7 @@ function PropertyDeals() {
   return (
     <>
       <div className="container mx-auto px-4">
-        <div className="my-10 ">
+        <div className="my-10 ml-[93px] ">
           <h1 className="text-[26px] text-left  font-semibold">
             Last Property Deals
           </h1>
@@ -26,6 +26,7 @@ function PropertyDeals() {
                     src={property.image}
                     alt="Property"
                     className="h-full  w-full lg:w-48 flex-none relative  hover:scale-125 duration-1000"
+                    style={{ objectFit: "cover" }}
                   />
                   <span className="absolute top-0 right-0 bg-green-500 m-2 p-1 text-[10px] font-semibold text-white ">
                     For Sale
