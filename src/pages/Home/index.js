@@ -12,6 +12,7 @@ import Testimonials from "./testimonials";
 import Images from "../../assect/Images/images.jpg";
 import Blog from "./blog";
 import Carousal from "./carousal";
+// import HomeSection from "./HomeSection";
 
 function index() {
   return (
@@ -39,7 +40,6 @@ function index() {
       <Pricing />
       {/* Testimonials section  */}
       <Testimonials />
-
       {/* image  */}
       <img
         src={Images}
@@ -47,9 +47,9 @@ function index() {
         className="w-full h-auto max-h-[500px] my-10 cover"
         style={{ objectFit: "cover" }}
       />
-
       {/* bolg section  */}
       <Blog />
+      {/* <HomeSection /> */}
     </div>
   );
 }

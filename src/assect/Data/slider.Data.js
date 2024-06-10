@@ -1,5 +1,5 @@
-import carosals from "../../assect/Images/slider-1.jpg";
-import carosal1 from "../../assect/Images/slider.jpg";
+import carosals from "../../assect/Images/slider.jpg";
+import carosal1 from "../../assect/Images/slider-1.jpg";
 
 export const SliderData = [
   {
