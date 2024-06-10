@@ -1,5 +1,6 @@
 import React from "react";
 import { FetureData } from "../../assect/Data/fetureData";
+import { Link } from "react-router-dom";
 function Card() {
   return (
     <div className="max-w-[1320px]  mx-auto relative">
@@ -18,15 +19,17 @@ function Card() {
               className="my-6 bg-white rounded-lg shadow-xl border border-gray-300 dark:border-gray-700"
             >
               <div className="h-[225px] overflow-hidden rounded-t-lg relative">
-                <img
-                  src={card.image}
-                  alt="card"
-                  className="w-full h-full object-cover hover:scale-125 duration-1000 "
-                  style={{ objectFit: "cover" }}
-                />
-                <span className="absolute top-0 right-0 bg-green-500 m-2 p-1 text-[10px] font-semibold text-white ">
-                  For Sale
-                </span>
+                <Link to={"/home_sectoin"}>
+                  <img
+                    src={card.image}
+                    alt="card"
+                    className="w-full h-full object-cover hover:scale-125 duration-1000 "
+                    style={{ objectFit: "cover" }}
+                  />
+                  <span className="absolute top-0 right-0 bg-green-500 m-2 p-1 text-[10px] font-semibold text-white ">
+                    For Sale
+                  </span>
+                </Link>
               </div>
 
               <a href="#">

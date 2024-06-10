@@ -34,7 +34,7 @@ function HomeSection() {
   return (
     <>
       {/* <header  */}
-      <header className="sticky top-0 bg-white z-50">
+      {/* <header className="sticky top-0 bg-white z-50">
         <nav className="flex flex-wrap justify-between my-5 px-5 lg:px-20">
           <div>
             <img
@@ -112,7 +112,7 @@ function HomeSection() {
             </a>
           </div>
         </nav>
-      </header>
+      </header> */}
 
       {/* carosal  */}
       <div
@@ -368,11 +368,11 @@ function HomeSection() {
                 </p>
                 <div className="pt-4 ml-[8px] pb-2 border-t border-gray-300">
                   <div className="flex justify-between">
-                    <span className="inline-block px-3 py-1 text-[13px] font-semibold border p-5 border-gray-300 text-gray-700 mr-2 mb-2 text-left">
+                    <span className="inline-block px-3 py-1 text-[12px] font-semibold border p-5 border-gray-300 text-gray-700 mr-2 mb-2 text-left">
                       <i className="fa-solid fa-bed mx-2"></i> {card.bedrooms}{" "}
                       Bedrooms
                     </span>
-                    <span className="inline-block px-3 py-1 text-[13px] font-semibold border p-5 border-gray-300 text-gray-700 mr-2 mb-2 text-left">
+                    <span className="inline-block px-3 py-1 text-[12px] font-semibold border p-5 border-gray-300 text-gray-700 mr-2 mb-2 text-left">
                       <i className="fa-solid fa-sink mx-2"></i> {card.bathrooms}{" "}
                       Bathrooms
                     </span>
@@ -390,7 +390,7 @@ function HomeSection() {
       </div>
 
       {/* footer  */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
