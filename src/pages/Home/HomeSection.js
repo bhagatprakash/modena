@@ -5,8 +5,7 @@ import test1 from "../../assect/Images/slider-4.jpg";
 import test2 from "../../assect/Images/slider2.jpg";
 import banner from "../../assect/Images/banner-Image.png";
 import { FetureData } from "../../assect/Data/fetureData";
-import Footer from "../../components/footer";
-import HeaderImage from "../../assect/Images/HEADER IMAGE.png";
+
 
 function HomeSection() {
   const [activeIndex, setActiveIndex] = useState(0);
